@@ -24,19 +24,26 @@ A full-featured React weather application that provides current weather conditio
 ## Installation and Setup
 
 1. Clone this repository:
+```bash
 git clone https://github.com/samanthawongsf/weather-app-v.2.git
-cd weather-app
-
-2. Install dependencies:
+cd weather-app-v.2
+```
+3. Install dependencies:
+```bash
 npm install
+```
 
-3. Start the development server:
+4. Start the development server:
+```bash
 npm start
+```
 
-4. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+5. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
 ## Project Structure
-weather-app/
+
+```
+weather-app-v.2/
 ├── public/
 ├── src/
 │   ├── components/
@@ -56,7 +63,7 @@ weather-app/
 ├── .gitignore
 ├── package.json
 └── README.md
-
+```
 ## API Endpoints Used
 
 - Current Weather: `https://api.openweathermap.org/data/2.5/weather`
@@ -94,3 +101,4 @@ weather-app/
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
+
